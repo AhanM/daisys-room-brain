@@ -4,7 +4,7 @@ Trigger: "run content analytics" or the Sunday scheduled task.
 Method: Troy Tittley's Flagship Evolution System (Music 1st Collective), automated. Pull his verbatim teaching via the Troy AI connector when in doubt.
 
 ## Goal
-Find the **flagship**: the one or two song sections that convert best, then post them ~80% of the time and "throw the kitchen sink" of formats at them. Success signal is **shares and saves**, not likes or views.
+Find the **flagship**: the one or two song sections that convert best, then post them ~80% of the time and "throw the kitchen sink" of formats at them. Primary metric is **views** (distribution). Retention metrics explain them; shares decide whether a flagship can break the plateau.
 
 ## Phases (track which one we're in at the top of each report)
 1. **Collect evidence.** Score candidate sections: top 3 performing section = 3 pts, high share rate = 2, strong comments = 1, +1 per flagship type it fits (melody, loop, kick in the face). Pick the top 5.
@@ -19,14 +19,17 @@ Find the **flagship**: the one or two song sections that convert best, then post
 ## Rules
 - Only enter data for posts at least **48 hours** old.
 - Ignore likes.
-- Primary metric: **shares per 1K views**, then saves per 1K. Watch time is a tiebreaker.
+- **Primary: views.**
+- **Diagnostics (why views moved):** skip rate / % past first 3s, avg watch time as % of length, % watched full. Pull these directly; don't infer them from views.
+- **Secondary: engagement rate** = (shares + comments + saves) / views x 100. Also report shares/1K on its own, since the sum hides it.
+- **Flagship gate:** a section only counts as the flagship if it leads on views AND its shares/1K beats the ~9 per 1K song-reel baseline. High views with low shares means it will plateau.
 - n < 3 posts per variant is a hint, not a finding.
 - If nothing clears ~200-300 views, it's the content, not the music. Say so.
 - Flag any post that broke a constant (different hashtags, description, font) as unreadable.
 
 ## Output (short)
 1. **Phase + flagship status:** current leader, confidence, what would confirm it.
-2. **Section x format grid:** shares/1K and saves/1K per cell.
+2. **Section x format grid:** views, skip rate, completion, engagement rate per cell.
 3. **Cull list:** sections and formats to cut, with replacements.
 4. **Next week's plan:** the posts, in order, with constants listed.
 5. **Plateau check:** compare against baseline (song reels ~80 sends at ~9K; event reel ~3,300 sends at ~145K).
