@@ -48,14 +48,11 @@ def week_in_review(df):
     w = df[df.week == wk]
     days = pd.date_range(wk, periods=7)
     out = pd.DataFrame({"day": [d.strftime("%a %b %d") for d in days]})
-    for kind in ["music", "other"]:
-        counts = w[w.kind == kind].groupby(w.posted.dt.date).size()
-        out[f"ig_{kind}"] = [int(counts.get(d.date(), 0)) for d in days]
-    out["ig_total"] = out.ig_music + out.ig_other
-    print(f"WEEK IN REVIEW ({wk}), Instagram trial reels from tracker:")
+    counts = w[w.kind == "music"].groupby(w.posted.dt.date).size()
+    out["ig_reels"] = [int(counts.get(d.date(), 0)) for d in days]
+    print(f"WEEK IN REVIEW ({wk}), Instagram music trial reels:")
     print(out.to_string(index=False))
-    print(f"Total: {out.ig_total.sum()} ({out.ig_music.sum()} music, {out.ig_other.sum()} other), "
-          f"days with 0 posts: {(out.ig_total == 0).sum()}")
+    print(f"Total: {out.ig_reels.sum()}, days with 0 posts: {(out.ig_reels == 0).sum()}")
 
 
 def main(path):
@@ -85,6 +82,10 @@ def main(path):
     print(table("song_section").to_string())
     print("\nBY FORMAT:")
     print(table("format").to_string())
+    print("\nFOOTAGE ON HAND (section x format combos already posted = reusable):")
+    have = sorted(set(zip(c.song_section, c.format)))
+    for sec, fmt in have:
+        print(f" - {sec} | {fmt}")
     print("\nSECTION x FORMAT (median views, n):")
     grid = c.groupby(["song_section", "format"])["views"].agg(["median", "size"])
     grid = grid.apply(lambda r: f"{int(r['median'])} ({int(r['size'])})", axis=1).unstack(fill_value="")
