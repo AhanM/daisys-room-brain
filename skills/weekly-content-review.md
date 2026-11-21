@@ -7,9 +7,12 @@
 
 ### (a) Pull data
 1. **Instagram:** export the Trial Reels Shared Tracker with the Google Drive connector's download tool (`exportMimeType` = xlsx). The plain read tool only returns one sample row per tab, so don't use it. Then run `python3 -I scripts/ig_summary.py <file>` and work from its output. Follow the sheet's README rules.
-2. **TikTok:** open TikTok Studio in the built-in browser. For every post from the last 14 days: views, avg watch time, % watched full, likes, comments, saves, shares, new followers. Append rows to `logs/experiments.md`.
-3. **Non-music posts:** the tracker drops show promos, so for the week-in-review count, also list this week's Instagram posts from the profile in the built-in browser (trial and regular).
-4. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
+2. **TikTok** (built-in browser, account @daisysroom.band, already logged in):
+   - Open `https://www.tiktok.com/tiktokstudio/content`. Collect post IDs and dates for the last 14 days with JS on `a[href*="/video/"]` (scroll to load more if needed).
+   - For each post, open `https://www.tiktok.com/tiktokstudio/analytics/<id>` and `get_page_text`. The five numbers under the caption are views, likes, comments, shares, saves. Also read: average watch time, watched full video %, new followers, retention drop-off second, For You %.
+   - Skip pinned and show-promo posts. Tag section and format by matching to the same-day Instagram reel; if no match, list it under Questions.
+   - Append rows to `logs/experiments.md`.
+3. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
 
 ### (b) Run the strategy
 - Judge only 48h+ posts. Exclude 0-view distribution failures and show promos (per README).
