@@ -1,7 +1,7 @@
 # Skill: weekly content analytics (Flagship Evolution System)
 
 Trigger: "run content analytics" or the Sunday scheduled task.
-Method: Troy Tittley's Flagship Evolution System (Music 1st Collective), automated. Pull his verbatim teaching via the Troy AI connector when in doubt.
+Method: see `context/content-playbook.md` for structure and metrics. Troy AI connector has the verbatim teaching.
 
 ## Goal
 Find the **flagship**: the one or two song sections that convert best, then post them ~80% of the time and "throw the kitchen sink" of formats at them. Primary metric is **views** (distribution). Retention metrics explain them; shares decide whether a flagship can break the plateau.
