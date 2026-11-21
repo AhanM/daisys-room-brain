@@ -34,7 +34,7 @@ def load(path):
     for c in ["views", "likes", "comments", "saves", "shares"]:
         df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0)
     text = df.fillna("").astype(str).apply(lambda r: " ".join(r), axis=1).str.lower()
-    df = df[~text.apply(lambda t: any(w in t for w in DROP_WORDS))]
+    df["kind"] = text.apply(lambda t: "other" if any(w in t for w in DROP_WORDS) else "music")
     df["judged"] = df["maturity_flag"].astype(str).str.startswith("48h+")
     df["counted"] = df["judged"] & (df["views"] > 0)
     df["eng"] = (df.comments + df.saves + df.shares) / df.views.where(df.views > 0)
@@ -43,9 +43,27 @@ def load(path):
     return df, sheets
 
 
+def week_in_review(df):
+    wk = df["week"].max()
+    w = df[df.week == wk]
+    days = pd.date_range(wk, periods=7)
+    out = pd.DataFrame({"day": [d.strftime("%a %b %d") for d in days]})
+    for kind in ["music", "other"]:
+        counts = w[w.kind == kind].groupby(w.posted.dt.date).size()
+        out[f"ig_{kind}"] = [int(counts.get(d.date(), 0)) for d in days]
+    out["ig_total"] = out.ig_music + out.ig_other
+    print(f"WEEK IN REVIEW ({wk}), Instagram trial reels from tracker:")
+    print(out.to_string(index=False))
+    print(f"Total: {out.ig_total.sum()} ({out.ig_music.sum()} music, {out.ig_other.sum()} other), "
+          f"days with 0 posts: {(out.ig_total == 0).sum()}")
+
+
 def main(path):
     df, sheets = load(path)
+    week_in_review(df)
+    df = df[df.kind == "music"]
     c = df[df.counted]
+    print()
     print(f"POSTS: {len(df)} total, {int(df.judged.sum())} judged 48h+, {len(c)} counted (>0 views)")
     print(f"UNDER 48h (not judged): {int((~df.judged).sum())}")
 

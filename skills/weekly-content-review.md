@@ -8,7 +8,8 @@
 ### (a) Pull data
 1. **Instagram:** export the Trial Reels Shared Tracker with the Google Drive connector's download tool (`exportMimeType` = xlsx). The plain read tool only returns one sample row per tab, so don't use it. Then run `python3 -I scripts/ig_summary.py <file>` and work from its output. Follow the sheet's README rules.
 2. **TikTok:** open TikTok Studio in the built-in browser. For every post from the last 14 days: views, avg watch time, % watched full, likes, comments, saves, shares, new followers. Append rows to `logs/experiments.md`.
-3. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
+3. **Non-music posts:** the tracker drops show promos, so for the week-in-review count, also list this week's Instagram posts from the profile in the built-in browser (trial and regular).
+4. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
 
 ### (b) Run the strategy
 - Judge only 48h+ posts. Exclude 0-view distribution failures and show promos (per README).
@@ -24,6 +25,10 @@ At most 3. Each must cite numbers and n. Flag confidence (high / medium / low). 
 A concrete posting plan that fills the most valuable untested cells and doubles down on Keeps. Hold on-screen text constant unless the test is the text.
 
 ## Output format (keep it to one phone screen per section)
+
+**0. Week in review** (Mon to Sun, consistency check). Table rows = days, columns: IG music | IG other | TikTok music | TikTok other | total. Then one line: total posts, days with 0 posts, days below the 3/day goal.
+- *Music* = features a Daisy's Room song (song section, performance, live clip of a song).
+- *Other* = show promo, event, personal, anything without a song as the focus.
 
 **1. Data status**: posts pulled per platform, how many judged (48h+), anything missing.
 **2. Scoreboard**: this week's median and max views vs the last 4 weeks; flagships (>= threshold) this week.
