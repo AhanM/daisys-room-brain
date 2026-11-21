@@ -22,7 +22,7 @@
 Top 2 formats and top 2 song sections by median views (n >= 3 to qualify). Name one under-tested contender if it beats them on fewer posts.
 
 ### (d) Recommend next week
-Pick 2 sections + 1 test section, 2 formats + 1 test format. Build 3 videos per day, Mon to Sun. TikTok mirrors the Instagram plan (same videos cross-posted) unless TikTok data shows a clear difference; if so, note it in one line. Mark each video as existing footage (combo already posted, per the script's footage list) or NEW footage. Group all new footage into one shoot early in the week.
+Pick 2 sections + 1 test section, 2 formats + 1 test format. Build 3 videos per day, Mon to Sun. TikTok mirrors the Instagram plan (same videos cross-posted) unless TikTok data shows a clear difference; if so, note it in one line. Add 2-3 TikTok-only carousel tests per week (photo carousel with the song section as audio); list them under the daily plan as "TikTok extras". Mark each video as existing footage (combo already posted, per the script's footage list) or NEW footage. Group all new footage into one shoot early in the week.
 
 ## Output format (one phone screen per section)
 
