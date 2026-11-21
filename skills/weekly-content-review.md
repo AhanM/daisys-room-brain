@@ -10,7 +10,8 @@
 2. **TikTok** (built-in browser, account @daisysroom.band, already logged in):
    - Open `https://www.tiktok.com/tiktokstudio/content`. Collect post IDs and dates for the last 14 days with JS on `a[href*="/video/"]` (scroll to load more if needed).
    - For each post, open `https://www.tiktok.com/tiktokstudio/analytics/<id>` and `get_page_text`. The five numbers under the caption are views, likes, comments, shares, saves. Also read: average watch time, watched full video %, new followers, retention drop-off second, For You %.
-   - Skip pinned and show-promo posts. Tag section and format by matching to the same-day Instagram reel; if no match, list it under Questions.
+   - Skip pinned and show-promo posts.
+   - Tag section and format in this order: (1) last week's daily plan, matched by day; (2) the same-day Instagram reel with the same length, using Muse's section tag; (3) ask Ahan under Questions. Unanswered posts stay `unconfirmed`: they count for consistency but are left out of section analysis.
    - Append rows to `logs/experiments.md`.
 3. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
 
