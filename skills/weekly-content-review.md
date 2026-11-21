@@ -22,11 +22,11 @@
 Top 2 formats and top 2 song sections by median views (n >= 3 to qualify). Name one under-tested contender if it beats them on fewer posts.
 
 ### (d) Recommend next week
-Pick 2 sections + 1 test section, 2 formats + 1 test format. Build 3 videos per day, Mon to Sun. Mark each video as existing footage (combo already posted, per the script's footage list) or NEW footage. Group all new footage into one shoot early in the week.
+Pick 2 sections + 1 test section, 2 formats + 1 test format. Build 3 videos per day, Mon to Sun. TikTok mirrors the Instagram plan (same videos cross-posted) unless TikTok data shows a clear difference; if so, note it in one line. Mark each video as existing footage (combo already posted, per the script's footage list) or NEW footage. Group all new footage into one shoot early in the week.
 
 ## Output format (one phone screen per section)
 
-**0. Week in review**: table, rows Mon to Sun, columns: IG trial reels | TikToks | total (music posts only). One line: total, zero-post days, days below 3.
+**0. Week in review**: table, rows Mon to Sun, columns: IG trial reels | TikToks (music posts only). One line: total, zero-post days, days below 3.
 **1. Data status**: one line. Sources pulled, anything missing.
 **2. Learnings**: top 2 formats and top 2 sections, each with median views and n. Plus the contender, if any.
 **3. Next week's mix**: small table: sections (2 + test) and formats (2 + test).
