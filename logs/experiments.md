@@ -1,6 +1,6 @@
 # Experiments log
 
-Append one entry per test. Change one variable at a time.
+One row per post, appended weekly by the content analytics skill.
 
-| date | platform | variable tested | variant | views | sends | saves | follows | takeaway |
-|---|---|---|---|---|---|---|---|---|
+| week | date | platform | hook | footage | song | format | views | shares | shares/1K | saves/1K | avg watch | follows | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
