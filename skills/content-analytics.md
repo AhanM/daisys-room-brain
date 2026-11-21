@@ -1,40 +1,35 @@
-# Skill: weekly content analytics
+# Skill: weekly content analytics (Flagship Evolution System)
 
 Trigger: "run content analytics" or the Sunday scheduled task.
+Method: Troy Tittley's Flagship Evolution System (Music 1st Collective), automated. Pull his verbatim teaching via the Troy AI connector when in doubt.
 
 ## Goal
-Find which content attributes earn **shares/sends**, the signal that breaks reels out of the ~9K plateau. Feed the winners into next week's ideas. Views alone are not a win.
+Find the **flagship**: the one or two song sections that convert best, then post them ~80% of the time and "throw the kitchen sink" of formats at them. Success signal is **shares and saves**, not likes or views.
+
+## Phases (track which one we're in at the top of each report)
+1. **Collect evidence.** Score candidate sections: top 3 performing section = 3 pts, high share rate = 2, strong comments = 1, +1 per flagship type it fits (melody, loop, kick in the face). Pick the top 5.
+2. **Structured testing.** 5 sections x 4 proven formats = 20 posts over ~7 days. Constants: same hashtags (new music, wider genre, smaller genre, sound-alike artist), same description, default fonts, no fade-ins. Only variables: song section and format.
+3. **Weekly culling.** Cut losing sections and formats, replace with new ideas, repeat. Once a flagship is clear, hold it constant and test formats against it.
 
 ## Inputs
-1. **Instagram:** latest Muse AI trial reels report (Ahan pastes it or drops it in `logs/raw/`).
-2. **TikTok:** TikTok Studio, read through the built-in browser on Ahan's computer (must be on and logged in). Per video from the last 7 days: views, likes, comments, shares, saves, avg watch time, % watched full, traffic sources, new followers.
-3. **Tags:** `logs/content-tags.md`. Infer missing tags from caption and on-screen hook text, mark them `(inferred)`, and ask Ahan to confirm.
+1. **Instagram:** Muse AI trial reels report (pasted or in `logs/raw/`).
+2. **TikTok:** TikTok Studio via the built-in browser on Ahan's computer (on, logged in). Views, comments, saves, shares, avg watch time, % watched full.
+3. **Tags:** `logs/content-tags.md` (song section, format, hook, footage). Infer missing tags, mark `(inferred)`, ask Ahan to confirm.
 
-## Tag scheme (one per variable)
-- **hook:** on-screen hook text (short label, e.g. `psych-3sec`)
-- **footage:** `photobooth`, `backcam`, `live`, `mv`, `visualizer`, `assets`, `talking`
-- **song:** song + section, e.g. `addicted-intro`, `limerence-chorus`, or `none`
-- **format:** `song`, `event-invite`, `story`, `lore`, `behind-scenes`
-- **platform:** `ig-trial`, `ig-feed`, `tiktok`
-
-## Metrics (in priority order)
-1. **Shares per 1K views** (primary)
-2. Saves per 1K views
-3. Avg watch time / % watched full
-4. Follows per 1K views
-5. Views (context only)
-
-## Analysis
-- Compare by one variable at a time (hook, footage, song, format). Flag when a comparison mixes variables and can't be read.
-- Treat n < 3 posts per variant as a hint, not a finding.
-- Compare against the baseline: song reels ~80 sends at ~9K views; viral event reel ~3,300 sends at ~145K.
-- Call out anything with shares per 1K well above baseline, even if views are low.
+## Rules
+- Only enter data for posts at least **48 hours** old.
+- Ignore likes.
+- Primary metric: **shares per 1K views**, then saves per 1K. Watch time is a tiebreaker.
+- n < 3 posts per variant is a hint, not a finding.
+- If nothing clears ~200-300 views, it's the content, not the music. Say so.
+- Flag any post that broke a constant (different hashtags, description, font) as unreadable.
 
 ## Output (short)
-1. **Top 3 and bottom 3** posts by shares per 1K, each with its tags.
-2. **What worked / what didn't:** at most 3 bullets each, tied to a variable.
-3. **Kill / keep / test:** one variant to drop, one to double down on, one new test with a single variable changed.
-4. **3 content ideas for next week** built from the winners. Shareable formats get priority.
+1. **Phase + flagship status:** current leader, confidence, what would confirm it.
+2. **Section x format grid:** shares/1K and saves/1K per cell.
+3. **Cull list:** sections and formats to cut, with replacements.
+4. **Next week's plan:** the posts, in order, with constants listed.
+5. **Plateau check:** compare against baseline (song reels ~80 sends at ~9K; event reel ~3,300 sends at ~145K).
 
 ## Logging
 Append one row per post to `logs/experiments.md`. Never rewrite past rows.
