@@ -11,7 +11,7 @@ Getting signed is a means, not the goal.
 
 Views and followers count only when they move one of these.
 
-## Objective: end of 2026 — "ready for when the ads stop"
+## Objective: end of 2026: "ready for when the ads stop"
 - [ ] O-1B immigration lawyer gap analysis: which 3 criteria are closest
 - [ ] Evidence folder started (press, posters, contracts, payments, stats screenshots)
 - [ ] Band agreement signed with music lawyer
@@ -19,7 +19,7 @@ Views and followers count only when they move one of these.
 - [ ] List at 150
 - [ ] One shareable, non-song content format proven twice
 
-## Objective: 2027 — "O-1B ready, sold-out headline, no ads"
+## Objective: 2027: "O-1B ready, sold-out headline, no ads"
 - [ ] EP released
 - [ ] Sold-out headline at Baby's All Right (or a room that size)
 - [ ] List at 500 or more
