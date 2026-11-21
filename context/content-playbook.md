@@ -21,5 +21,5 @@ How we structure content and what we optimize. Findings and flagship status live
 4. **Check: shares per 1K.** Song reels run ~2-4 per 1K. Flag anything well above that.
 
 ## Cadence
-- Weekly analytics run on Sunday (`skills/content-analytics.md`).
+- Weekly analytics run on Sunday (`skills/weekly-content-review.md`).
 - Batch approval once a week; the scheduler posts daily.
