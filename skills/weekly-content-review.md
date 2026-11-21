@@ -6,7 +6,7 @@
 ## Steps
 
 ### (a) Pull data
-1. **Instagram:** read the Trial Reels Shared Tracker via the Google Drive connector. Tabs: README (follow its rules), All reels, Rotation, Weeks.
+1. **Instagram:** export the Trial Reels Shared Tracker with the Google Drive connector's download tool (`exportMimeType` = xlsx). The plain read tool only returns one sample row per tab, so don't use it. Then run `python3 -I scripts/ig_summary.py <file>` and work from its output. Follow the sheet's README rules.
 2. **TikTok:** open TikTok Studio in the built-in browser. For every post from the last 14 days: views, avg watch time, % watched full, likes, comments, saves, shares, new followers. Append rows to `logs/experiments.md`.
 3. If a source fails, say so in one line and continue with the rest. Never estimate missing numbers.
 
