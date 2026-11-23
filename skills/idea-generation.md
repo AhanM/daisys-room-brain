@@ -9,7 +9,8 @@
    - Read only rows with ID above `megafolder_last_id` in `logs/inspo-seen.md`.
    - Keep rows that fit: rock / indie / alt genre, asset type we already have or can shoot cheaply (selfie, guitar performance, photo booth, city/subway, bedroom).
 2. **Instagram saved** (personal account `ahansolocups`, logged in): collections "music market inspo" and "music visuals". Newest saves first; stop at the last link in `logs/inspo-seen.md`. Open each reel, screenshot at 0.5 scale to read the on-screen text and visual.
-3. **Band Instagram saved** and **TikTok favorites**: same method once logged in.
+3. **Band Instagram saved** (`daisysroom.band`, collection "music marketing": `https://www.instagram.com/daisysroom.band/saved/music-marketing/2218107325399654/`). Same method.
+4. **TikTok favorites**: same method once the right account is confirmed.
 
 ## For each candidate, capture
 source link | visual | on-screen text (verbatim) | why it works | footage needed (existing / new) | which of our sections it suits
