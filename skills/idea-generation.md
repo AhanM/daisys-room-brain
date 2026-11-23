@@ -12,6 +12,14 @@
 3. **Band Instagram saved** (`daisysroom.band`, collection "music marketing": `https://www.instagram.com/daisysroom.band/saved/music-marketing/2218107325399654/`). Same method.
 4. **TikTok favorites**: same method once the right account is confirmed.
 
+## Speed rules
+- Saves are read once and cached in `logs/inspo-library.md` (link, on-screen text, visual, hook type). Never re-read a cached link.
+- Weekly runs only open saves newer than the watermark, usually a handful.
+- Batch 7 reels per browser call, screenshot at 0.4 scale.
+
+## Uprank rule
+Tag every hook with a hook type (e.g. location-CTA, retention-ask, anti-AI, identity, POV, list-of-reasons, nostalgia). A Megafolder idea whose hook type also appears in Ahan's saves gets upranked in next week's plan.
+
 ## For each candidate, capture
 source link | visual | on-screen text (verbatim) | why it works | footage needed (existing / new) | which of our sections it suits
 
