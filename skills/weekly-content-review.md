@@ -28,7 +28,7 @@ Use **last week only** (the Mon to Sun just ended), Instagram views as the ranki
 ### (d) Recommend next week
 - A **format = visual + on-screen text**, always as one unit. No separate text variable.
 - **4 sections x 5 formats = 20 videos. No repeats.** Plus **1 TikTok carousel format** per week.
-- **Sections:** 3 core (Addicted intro, Limerence intro, no:reunion intro) + **1 challenger** from the queue in `context/song-sections.md`. A challenger that beats a core section replaces it.
+- **Sections:** 2 core + **2 challengers** from the queue in `context/song-sections.md`. After each run, update that file's status column with the week's results and move the queue forward.
 - **Freshness rule (survival of the fittest):** keep last week's top 2-3 formats; replace the rest with fresh ones from idea generation with **fresh** ones every week.
   - Fresh sections come from `context/song-sections.md` (untested first).
   - Fresh formats come from `skills/idea-generation.md` (Megafolder + saved videos, new since last run).
