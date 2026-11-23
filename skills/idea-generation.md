@@ -24,7 +24,8 @@ Tag every hook with a hook type (e.g. location-CTA, retention-ask, anti-AI, iden
 source link | visual | on-screen text (verbatim) | why it works | footage needed (existing / new) | which of our sections it suits
 
 ## Pick
-- 5 ideas max per week, enough to replace the formats being cut.
+- Each week deliver **5 video formats + 1 TikTok carousel format**, enough to replace the formats being cut.
+- Output as a table: # | text (Ahan's version) | visual | footage (existing / new) | original link as [▶ Watch](url). Mark upranked ideas with ⬆️.
 - Adapt the text to Daisy's Room in Ahan's voice (lowercase, casual). Keep the mechanic, change the words.
 - Prefer ideas that drive comments or sends (questions, "lmk what city", "copy link") and need no new gear.
 - Never reuse an idea already listed in `logs/inspo-seen.md`.
