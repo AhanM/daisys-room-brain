@@ -8,8 +8,8 @@
 ### (a) Pull data
 1. **Instagram:** export the Trial Reels Shared Tracker with the Google Drive connector's download tool (`exportMimeType` = xlsx). The plain read tool only returns one sample row per tab, so don't use it. Then run `python3 -I scripts/ig_summary.py <file>` and work from its output. Follow the sheet's README rules.
 2. **TikTok** (built-in browser, account @daisysroom.band, already logged in):
-   - Open `https://www.tiktok.com/tiktokstudio/content`. Collect post IDs and dates for the last 14 days with JS on `a[href*="/video/"]` (scroll to load more if needed).
-   - For each post, open `https://www.tiktok.com/tiktokstudio/analytics/<id>` and `get_page_text`. The five numbers under the caption are views, likes, comments, shares, saves. Also read: average watch time, watched full video %, new followers, retention drop-off second, For You %.
+   - Open `https://www.tiktok.com/tiktokstudio/content`. In the page, hook XHR/fetch responses whose URL contains `item_list` into `window.__items` (keyed by `item_id`), then click the "Posts (Created on)" header twice and scroll the list to trigger loads. Each item has create_time, duration, play_count, like_count, comment_count, share_count, favorite_count (saves), is_pinned, desc. Keep the last 14 days.
+   - For each of this week's posts, open `https://www.tiktok.com/tiktokstudio/analytics/<item_id>` and `get_page_text` for average watch time, watched full video %, new followers, retention drop-off second, For You %.
    - Skip pinned and show-promo posts.
    - Tag section and format in this order: (1) last week's daily plan, matched by day; (2) the same-day Instagram reel with the same length, using Muse's section tag; (3) ask Ahan under Questions. Unanswered posts stay `unconfirmed`: they count for consistency but are left out of section analysis.
    - Append rows to `logs/experiments.md`.
