@@ -73,40 +73,40 @@ Status: CORE = always in plan | TESTED = data exists (median IG views, n) | DROP
 
 ## Phase 1 scores (DRAFT, Nov 22 2026)
 
-Scored on past posts + streaming + versatility only (comparator column dropped by Ahan). Streaming assumes Addicted is the most popular song; playlist adds and save ratio not yet pulled. Ties broken by past-post score.
+Scored on past posts + versatility only (Ahan dropped comparator and streaming). Ties broken by past-post score.
 
-| rank | song | section | past | streaming | versatility | total | flagship types |
-|---|---|---|---|---|---|---|---|
-| 1 | addicted | intro | 6 | 3 | 2 | **11** | Cold Open, Viber, Loop |
-| 2 | limerence | intro (inst) | 4 | 0 | 2 | **6** | Cold Open, Viber, Loop |
-| 3 | no:reunion | intro (inst) | 4 | 0 | 2 | **6** | Cold Open, Viber, Loop |
-| 4 | no:reunion | verse | 3 | 0 | 1 | **4** | Bumper Sticker, Mid-Sentence |
-| 5 | addicted | modified chorus | 0 | 3 | 1 | **4** | Melody, Kick in the Face |
-| 6 | addicted | verse | 0 | 3 | 1 | **4** | Bumper Sticker, Stripped Back |
-| 7 | addicted | pre-chorus | 0 | 3 | 1 | **4** | Anticipator, Curiosity Gap |
-| 8 | addicted | bridge | 0 | 3 | 1 | **4** | Anticipator, Switch-up |
-| 9 | validation | inst break into chorus | 0 | 0 | 2 | **2** | Switch-up, Kick in the Face, Melody |
-| 10 | validation | intro (inst) | 0 | 0 | 1 | **1** | Cold Open, Viber |
-| 11 | c&k | intro (inst) | 0 | 0 | 1 | **1** | Viber, Loop |
-| 12 | limerence | intro inst, modified | 0 | 0 | 1 | **1** | Viber, Loop |
-| 13 | no:reunion | chorus | 0 | 0 | 1 | **1** | Melody, Kick in the Face |
-| 14 | no:reunion | modified chorus | 0 | 0 | 1 | **1** | Melody, Kick in the Face |
-| 15 | c&k | chorus | 0 | 0 | 1 | **1** | Melody, Loop |
-| 16 | c&k | modified chorus (no vocals) | 0 | 0 | 1 | **1** | Viber, Loop |
-| 17 | limerence | verse | 0 | 0 | 1 | **1** | Bumper Sticker, Mid-Sentence |
-| 18 | limerence | pre-chorus | 0 | 0 | 1 | **1** | Anticipator, Curiosity Gap |
-| 19 | limerence | rhythmic-change bridge | 0 | 0 | 1 | **1** | Switch-up, Kick in the Face |
-| 20 | limerence | picked-up bridge | 0 | 0 | 1 | **1** | Anticipator, Kick in the Face |
-| 21 | no:reunion | pre-chorus | 0 | 0 | 1 | **1** | Anticipator, Curiosity Gap |
-| 22 | no:reunion | post-chorus | 0 | 0 | 1 | **1** | Loop, Melody |
-| 23 | no:reunion | break | 0 | 0 | 1 | **1** | Kick in the Face, Loop |
-| 24 | no:reunion | picked-up bridge | 0 | 0 | 1 | **1** | Anticipator, Kick in the Face |
-| 25 | c&k | bridge pickup | 0 | 0 | 1 | **1** | Kick in the Face, Anticipator |
-| 26 | c&k | intro | 0 | 0 | 0 | **0** | Cold Open |
-| 27 | validation | verse | 0 | 0 | 0 | **0** | Bumper Sticker |
-| 28 | validation | rhythmic-change bridge | 0 | 0 | 0 | **0** | Switch-up |
-| 29 | validation | post-chorus | 0 | 0 | 0 | **0** | Loop |
-| 30 | c&k | verse | 0 | 0 | 0 | **0** | Bumper Sticker |
-| 31 | c&k | post-chorus | 0 | 0 | 0 | **0** | Loop |
-| 32 | c&k | break | 0 | 0 | 0 | **0** | Kick in the Face |
-| 33 | c&k | bridge | 0 | 0 | 0 | **0** | Anticipator |
+| rank | song | section | past | versatility | total | flagship types |
+|---|---|---|---|---|---|---|
+| 1 | addicted | intro | 6 | 2 | **8** | Cold Open, Viber, Loop |
+| 2 | limerence | intro (inst) | 4 | 2 | **6** | Cold Open, Viber, Loop |
+| 3 | no:reunion | intro (inst) | 4 | 2 | **6** | Cold Open, Viber, Loop |
+| 4 | no:reunion | verse | 3 | 1 | **4** | Bumper Sticker, Mid-Sentence |
+| 5 | validation | inst break into chorus | 0 | 2 | **2** | Switch-up, Kick in the Face, Melody |
+| 6 | addicted | modified chorus | 0 | 1 | **1** | Melody, Kick in the Face |
+| 7 | addicted | verse | 0 | 1 | **1** | Bumper Sticker, Stripped Back |
+| 8 | addicted | pre-chorus | 0 | 1 | **1** | Anticipator, Curiosity Gap |
+| 9 | addicted | bridge | 0 | 1 | **1** | Anticipator, Switch-up |
+| 10 | validation | intro (inst) | 0 | 1 | **1** | Cold Open, Viber |
+| 11 | c&k | intro (inst) | 0 | 1 | **1** | Viber, Loop |
+| 12 | limerence | intro inst, modified | 0 | 1 | **1** | Viber, Loop |
+| 13 | no:reunion | chorus | 0 | 1 | **1** | Melody, Kick in the Face |
+| 14 | no:reunion | modified chorus | 0 | 1 | **1** | Melody, Kick in the Face |
+| 15 | c&k | chorus | 0 | 1 | **1** | Melody, Loop |
+| 16 | c&k | modified chorus (no vocals) | 0 | 1 | **1** | Viber, Loop |
+| 17 | limerence | verse | 0 | 1 | **1** | Bumper Sticker, Mid-Sentence |
+| 18 | limerence | pre-chorus | 0 | 1 | **1** | Anticipator, Curiosity Gap |
+| 19 | limerence | rhythmic-change bridge | 0 | 1 | **1** | Switch-up, Kick in the Face |
+| 20 | limerence | picked-up bridge | 0 | 1 | **1** | Anticipator, Kick in the Face |
+| 21 | no:reunion | pre-chorus | 0 | 1 | **1** | Anticipator, Curiosity Gap |
+| 22 | no:reunion | post-chorus | 0 | 1 | **1** | Loop, Melody |
+| 23 | no:reunion | break | 0 | 1 | **1** | Kick in the Face, Loop |
+| 24 | no:reunion | picked-up bridge | 0 | 1 | **1** | Anticipator, Kick in the Face |
+| 25 | c&k | bridge pickup | 0 | 1 | **1** | Kick in the Face, Anticipator |
+| 26 | c&k | intro | 0 | 0 | **0** | Cold Open |
+| 27 | validation | verse | 0 | 0 | **0** | Bumper Sticker |
+| 28 | validation | rhythmic-change bridge | 0 | 0 | **0** | Switch-up |
+| 29 | validation | post-chorus | 0 | 0 | **0** | Loop |
+| 30 | c&k | verse | 0 | 0 | **0** | Bumper Sticker |
+| 31 | c&k | post-chorus | 0 | 0 | **0** | Loop |
+| 32 | c&k | break | 0 | 0 | **0** | Kick in the Face |
+| 33 | c&k | bridge | 0 | 0 | **0** | Anticipator |
