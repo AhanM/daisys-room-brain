@@ -27,8 +27,8 @@ Use **last week only** (the Mon to Sun just ended), Instagram views as the ranki
 
 ### (d) Recommend next week
 - A **format = visual + on-screen text**, always as one unit. No separate text variable.
-- **4 sections x 4 formats = 16 core videos**, plus ~5 slots for repeats of last week's winner or TikTok carousels. Target 20-21 videos.
-- **Freshness rule (survival of the fittest):** keep last week's top 2 sections and top 2 formats; replace the bottom 2 of each with **fresh** ones every week.
+- **4 sections x 5 formats = 20 videos. No repeats.** TikTok carousels are extra, on top of the 20.
+- **Freshness rule (survival of the fittest):** keep last week's top 2 sections and top 2-3 formats; replace the rest with **fresh** ones every week.
   - Fresh sections come from `context/song-sections.md` (untested first).
   - Fresh formats come from the Post Inspo Megafolder (Notion, readable in the built-in browser; filter to rock/indie and "What You Already Have") and Ahan's saved videos. Adapt each to Daisy's Room with its own on-screen text.
 - 3 videos per day. Existing-footage videos early in the week, new footage later; group new footage into as few shoots as possible.

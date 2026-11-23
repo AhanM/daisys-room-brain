@@ -6,7 +6,7 @@ How we structure content and what we optimize. Findings and flagship status live
 
 ## Structure: Flagship Evolution System
 1. **Collect evidence:** score candidate song sections, pick the top 5.
-2. **Structured testing:** 5 sections x 4 proven formats = 20 posts over ~7 days.
+2. **Structured testing:** 4 sections x 5 formats (format = visual + on-screen text) = 20 posts over ~7 days. No repeats.
 3. **Weekly culling:** cut losing sections and formats, replace, repeat.
 4. **Once the flagship is confirmed:** post it ~80% of the time and test new formats against it.
 
