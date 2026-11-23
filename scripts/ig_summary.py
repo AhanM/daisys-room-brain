@@ -39,8 +39,37 @@ def load(path):
     df["counted"] = df["judged"] & (df["views"] > 0)
     df["eng"] = (df.comments + df.saves + df.shares) / df.views.where(df.views > 0)
     df["format"] = df["content_format"].apply(norm_format)
+    df["text"] = df["on_screen_text"].apply(norm_text)
+    df["song"] = df["song_section"].apply(song_of)
     df["week"] = df["posted"].dt.to_period("W-SUN").dt.start_time.dt.date
     return df, sheets
+
+
+TEXT_RULES = [  # short codes for on-screen text hooks; specific keys first
+    ("marketable", "CITY"), ("what city", "CITY"), ("where you're watching", "NYC"),
+    ("i hate ai", "HATEAI"), ("human to human", "HUMAN"), ("hypothetically", "HYPO"), ("great taste", "TASTE"), ("concert ticket", "TICKET"),
+    ("copy the link", "COPYLINK"), ("copy link", "COPYLINK"), ("target audience", "TARGET"),
+    ("finding my listeners", "FINDING"), ("finding our listeners", "FINDING"),
+    ("strokes", "STROKES"), ("doomscrolled", "DOOMSCROLL"), ("backstage", "BACKSTAGE"),
+]
+
+
+def norm_text(t):
+    t = str(t).lower()
+    if t in ("nan", "", "none noted") or t.startswith("no distinct"):
+        return "none"
+    for key, code in TEXT_RULES:
+        if key in t:
+            return code
+    return "lyrics/other"
+
+
+def song_of(sec):
+    sec = str(sec).lower()
+    for name in ["addicted", "limerence", "no:reunion", "c&k", "validation"]:
+        if name in sec:
+            return name
+    return "other"
 
 
 def week_in_review(df):
@@ -78,7 +107,25 @@ def main(path):
         t["eng"] = (t.eng * 100).round(2)
         return t.drop(columns=["shares", "views"]).sort_values("median", ascending=False)
 
-    print("\nBY SECTION:")
+    def table(col):
+        t = c.groupby(col).agg(n=("views", "size"), median=("views", "median"),
+                               max=("views", "max"), eng=("eng", "median"),
+                               shares=("shares", "sum"), views=("views", "sum"))
+        t["shares_1k"] = (t.shares / t.views * 1000).round(1)
+        t["eng"] = (t.eng * 100).round(2)
+        return t.drop(columns=["shares", "views"]).sort_values("median", ascending=False)
+
+    lw = c[c.week == c.week.max()]
+    print(f"\nLAST WEEK ONLY ({c.week.max()}), judged reels:")
+    for col in ["format", "song_section", "song", "text"]:
+        t = lw.groupby(col)["views"].agg(n="size", median="median", max="max").sort_values("median", ascending=False)
+        print(f"\n  by {col}:")
+        print(t.to_string())
+
+    print("\nALL TIME BY ON-SCREEN TEXT:")
+    print(table("text").to_string())
+
+    print("\nBY SECTION (all time):")
     print(table("song_section").to_string())
     print("\nBY FORMAT:")
     print(table("format").to_string())

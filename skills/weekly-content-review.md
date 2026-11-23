@@ -23,18 +23,22 @@
 - Check each Rotation cell: Keep / Test / Cut, using the flagship threshold.
 
 ### (c) Summarize learnings
-Top 2 formats and top 2 song sections by median views (n >= 3 to qualify). Name one under-tested contender if it beats them on fewer posts.
+Use **last week only** (the Mon to Sun just ended), Instagram views as the ranking, TikTok watch time and completion as context. A format = visual + on-screen text, so rank visuals, sections and text hooks separately (the script prints all three). Top 2 of each. Flag n = 1 results as hints.
 
 ### (d) Recommend next week
-Pick 2 sections + 1 test section, 2 formats + 1 test format. Build 3 videos per day, Mon to Sun. TikTok mirrors the Instagram plan (same videos cross-posted) unless TikTok data shows a clear difference; if so, note it in one line. Add 2-3 TikTok-only carousel tests per week (photo carousel with the song section as audio); list them under the daily plan as "TikTok extras". Mark each video as existing footage (combo already posted, per the script's footage list) or NEW footage. Group all new footage into one shoot early in the week.
+- **4 sections x 4 visual formats** = 16 core videos, taken from the sheet's Rotation tab (update it if last week's data says so).
+- **Hold one on-screen text constant** across the 16 so section and visual stay readable. Default: the best proven text.
+- Use the remaining 5 slots for **one text test** on a Keep cell (same section + visual, new text), so only the text varies.
+- 3 videos per day. Existing-footage videos early in the week, new footage later; group new footage into as few shoots as possible.
+- TikTok mirrors the plan, plus 2-3 photo carousels as TikTok extras.
 
 ## Output format (one phone screen per section)
 
 **0. Week in review**: table, rows Mon to Sun, columns: IG trial reels | TikToks (music posts only). One line: total, zero-post days, days below 3.
 **1. Data status**: one line. Sources pulled, anything missing.
-**2. Learnings**: top 2 formats and top 2 sections, each with median views and n. Plus the contender, if any.
-**3. Next week's mix**: small table: sections (2 + test) and formats (2 + test).
-**4. Daily plan**: table: day | video 1 | video 2 | video 3 | new footage? Then one line: what to film and when.
+**2. Learnings (last week only)**: top 2 visuals, top 2 sections, top 2 on-screen texts, each with median views and n. One line of TikTok context.
+**3. Next week's mix**: 4 sections, 4 visuals, the constant text, and the text being tested (with full wording).
+**4. Daily plan**: table: day | video 1 | video 2 | video 3 | new footage? Each video = section · visual · text code. Then a text-code legend and one line on what to film and when.
 **5. Questions for Ahan**: max 3.
 
 No preamble, no recap of method, no em dashes.
