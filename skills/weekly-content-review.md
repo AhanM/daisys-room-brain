@@ -30,7 +30,7 @@ Use **last week only** (the Mon to Sun just ended), Instagram views as the ranki
 - **4 sections x 5 formats = 20 videos. No repeats.** TikTok carousels are extra, on top of the 20.
 - **Freshness rule (survival of the fittest):** keep last week's top 2 sections and top 2-3 formats; replace the rest with **fresh** ones every week.
   - Fresh sections come from `context/song-sections.md` (untested first).
-  - Fresh formats come from the Post Inspo Megafolder (Notion, readable in the built-in browser; filter to rock/indie and "What You Already Have") and Ahan's saved videos. Adapt each to Daisy's Room with its own on-screen text.
+  - Fresh formats come from `skills/idea-generation.md` (Megafolder + saved videos, new since last run).
 - 3 videos per day. Existing-footage videos early in the week, new footage later; group new footage into as few shoots as possible.
 
 ## Output format (one phone screen per section)
