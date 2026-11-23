@@ -71,42 +71,42 @@ Status: CORE = always in plan | TESTED = data exists (median IG views, n) | DROP
 7. addicted modified chorus + no:reunion modified chorus
 8+. validation and c&k sections once studio recordings exist (live footage confounds results)
 
-## Phase 1 scores (DRAFT, Nov 22 2026, pending Ahan's confirmation)
+## Phase 1 scores (DRAFT, Nov 22 2026)
 
-Rubric: Troy's Flagship Evolution System, Phase 2 evidence scoring. Assumptions: streaming = Addicted is the most popular song (playlist adds and save ratio not yet pulled); comparator = genre judgment, not yet researched; flagship types = Claude's draft.
+Scored on past posts + streaming + versatility only (comparator column dropped by Ahan). Streaming assumes Addicted is the most popular song; playlist adds and save ratio not yet pulled. Ties broken by past-post score.
 
-| rank | song | section | past | streaming | comparator | versatility | total | flagship types |
-|---|---|---|---|---|---|---|---|---|
-| 1 | addicted | intro | 6 | 3 | 6 | 2 | **17** | Cold Open, Viber, Loop |
-| 2 | limerence | intro (inst) | 4 | 0 | 6 | 2 | **12** | Cold Open, Viber, Loop |
-| 3 | no:reunion | intro (inst) | 4 | 0 | 6 | 2 | **12** | Cold Open, Viber, Loop |
-| 4 | addicted | modified chorus | 0 | 3 | 5 | 1 | **9** | Melody, Kick in the Face |
-| 5 | validation | intro (inst) | 0 | 0 | 6 | 1 | **7** | Cold Open, Viber |
-| 6 | validation | inst break into chorus | 0 | 0 | 5 | 2 | **7** | Switch-up, Kick in the Face, Melody |
-| 7 | c&k | intro (inst) | 0 | 0 | 6 | 1 | **7** | Viber, Loop |
-| 8 | addicted | verse | 0 | 3 | 2 | 1 | **6** | Bumper Sticker, Stripped Back |
-| 9 | addicted | pre-chorus | 0 | 3 | 2 | 1 | **6** | Anticipator, Curiosity Gap |
-| 10 | addicted | bridge | 0 | 3 | 2 | 1 | **6** | Anticipator, Switch-up |
-| 11 | limerence | intro inst, modified | 0 | 0 | 5 | 1 | **6** | Viber, Loop |
-| 12 | no:reunion | verse | 3 | 0 | 2 | 1 | **6** | Bumper Sticker, Mid-Sentence |
-| 13 | no:reunion | chorus | 0 | 0 | 5 | 1 | **6** | Melody, Kick in the Face |
-| 14 | no:reunion | modified chorus | 0 | 0 | 5 | 1 | **6** | Melody, Kick in the Face |
-| 15 | c&k | intro | 0 | 0 | 6 | 0 | **6** | Cold Open |
-| 16 | c&k | chorus | 0 | 0 | 5 | 1 | **6** | Melody, Loop |
-| 17 | c&k | modified chorus (no vocals) | 0 | 0 | 5 | 1 | **6** | Viber, Loop |
-| 18 | limerence | verse | 0 | 0 | 2 | 1 | **3** | Bumper Sticker, Mid-Sentence |
-| 19 | limerence | pre-chorus | 0 | 0 | 2 | 1 | **3** | Anticipator, Curiosity Gap |
-| 20 | limerence | rhythmic-change bridge | 0 | 0 | 2 | 1 | **3** | Switch-up, Kick in the Face |
-| 21 | limerence | picked-up bridge | 0 | 0 | 2 | 1 | **3** | Anticipator, Kick in the Face |
-| 22 | no:reunion | pre-chorus | 0 | 0 | 2 | 1 | **3** | Anticipator, Curiosity Gap |
-| 23 | no:reunion | post-chorus | 0 | 0 | 2 | 1 | **3** | Loop, Melody |
-| 24 | no:reunion | break | 0 | 0 | 2 | 1 | **3** | Kick in the Face, Loop |
-| 25 | no:reunion | picked-up bridge | 0 | 0 | 2 | 1 | **3** | Anticipator, Kick in the Face |
-| 26 | c&k | bridge pickup | 0 | 0 | 2 | 1 | **3** | Kick in the Face, Anticipator |
-| 27 | validation | verse | 0 | 0 | 2 | 0 | **2** | Bumper Sticker |
-| 28 | validation | rhythmic-change bridge | 0 | 0 | 2 | 0 | **2** | Switch-up |
-| 29 | validation | post-chorus | 0 | 0 | 2 | 0 | **2** | Loop |
-| 30 | c&k | verse | 0 | 0 | 2 | 0 | **2** | Bumper Sticker |
-| 31 | c&k | post-chorus | 0 | 0 | 2 | 0 | **2** | Loop |
-| 32 | c&k | break | 0 | 0 | 2 | 0 | **2** | Kick in the Face |
-| 33 | c&k | bridge | 0 | 0 | 2 | 0 | **2** | Anticipator |
+| rank | song | section | past | streaming | versatility | total | flagship types |
+|---|---|---|---|---|---|---|---|
+| 1 | addicted | intro | 6 | 3 | 2 | **11** | Cold Open, Viber, Loop |
+| 2 | limerence | intro (inst) | 4 | 0 | 2 | **6** | Cold Open, Viber, Loop |
+| 3 | no:reunion | intro (inst) | 4 | 0 | 2 | **6** | Cold Open, Viber, Loop |
+| 4 | no:reunion | verse | 3 | 0 | 1 | **4** | Bumper Sticker, Mid-Sentence |
+| 5 | addicted | modified chorus | 0 | 3 | 1 | **4** | Melody, Kick in the Face |
+| 6 | addicted | verse | 0 | 3 | 1 | **4** | Bumper Sticker, Stripped Back |
+| 7 | addicted | pre-chorus | 0 | 3 | 1 | **4** | Anticipator, Curiosity Gap |
+| 8 | addicted | bridge | 0 | 3 | 1 | **4** | Anticipator, Switch-up |
+| 9 | validation | inst break into chorus | 0 | 0 | 2 | **2** | Switch-up, Kick in the Face, Melody |
+| 10 | validation | intro (inst) | 0 | 0 | 1 | **1** | Cold Open, Viber |
+| 11 | c&k | intro (inst) | 0 | 0 | 1 | **1** | Viber, Loop |
+| 12 | limerence | intro inst, modified | 0 | 0 | 1 | **1** | Viber, Loop |
+| 13 | no:reunion | chorus | 0 | 0 | 1 | **1** | Melody, Kick in the Face |
+| 14 | no:reunion | modified chorus | 0 | 0 | 1 | **1** | Melody, Kick in the Face |
+| 15 | c&k | chorus | 0 | 0 | 1 | **1** | Melody, Loop |
+| 16 | c&k | modified chorus (no vocals) | 0 | 0 | 1 | **1** | Viber, Loop |
+| 17 | limerence | verse | 0 | 0 | 1 | **1** | Bumper Sticker, Mid-Sentence |
+| 18 | limerence | pre-chorus | 0 | 0 | 1 | **1** | Anticipator, Curiosity Gap |
+| 19 | limerence | rhythmic-change bridge | 0 | 0 | 1 | **1** | Switch-up, Kick in the Face |
+| 20 | limerence | picked-up bridge | 0 | 0 | 1 | **1** | Anticipator, Kick in the Face |
+| 21 | no:reunion | pre-chorus | 0 | 0 | 1 | **1** | Anticipator, Curiosity Gap |
+| 22 | no:reunion | post-chorus | 0 | 0 | 1 | **1** | Loop, Melody |
+| 23 | no:reunion | break | 0 | 0 | 1 | **1** | Kick in the Face, Loop |
+| 24 | no:reunion | picked-up bridge | 0 | 0 | 1 | **1** | Anticipator, Kick in the Face |
+| 25 | c&k | bridge pickup | 0 | 0 | 1 | **1** | Kick in the Face, Anticipator |
+| 26 | c&k | intro | 0 | 0 | 0 | **0** | Cold Open |
+| 27 | validation | verse | 0 | 0 | 0 | **0** | Bumper Sticker |
+| 28 | validation | rhythmic-change bridge | 0 | 0 | 0 | **0** | Switch-up |
+| 29 | validation | post-chorus | 0 | 0 | 0 | **0** | Loop |
+| 30 | c&k | verse | 0 | 0 | 0 | **0** | Bumper Sticker |
+| 31 | c&k | post-chorus | 0 | 0 | 0 | **0** | Loop |
+| 32 | c&k | break | 0 | 0 | 0 | **0** | Kick in the Face |
+| 33 | c&k | bridge | 0 | 0 | 0 | **0** | Anticipator |
