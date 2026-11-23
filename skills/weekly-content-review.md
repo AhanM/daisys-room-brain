@@ -26,11 +26,12 @@
 Use **last week only** (the Mon to Sun just ended), Instagram views as the ranking, TikTok watch time and completion as context. A format = visual + on-screen text, so rank visuals, sections and text hooks separately (the script prints all three). Top 2 of each. Flag n = 1 results as hints.
 
 ### (d) Recommend next week
-- **4 sections x 4 visual formats** = 16 core videos, taken from the sheet's Rotation tab (update it if last week's data says so).
-- **Hold one on-screen text constant** across the 16 so section and visual stay readable. Default: the best proven text.
-- Use the remaining 5 slots for **one text test** on a Keep cell (same section + visual, new text), so only the text varies.
+- A **format = visual + on-screen text**, always as one unit. No separate text variable.
+- **4 sections x 4 formats = 16 core videos**, plus ~5 slots for repeats of last week's winner or TikTok carousels. Target 20-21 videos.
+- **Freshness rule (survival of the fittest):** keep last week's top 2 sections and top 2 formats; replace the bottom 2 of each with **fresh** ones every week.
+  - Fresh sections come from `context/song-sections.md` (untested first).
+  - Fresh formats come from the Post Inspo Megafolder (Notion, readable in the built-in browser; filter to rock/indie and "What You Already Have") and Ahan's saved videos. Adapt each to Daisy's Room with its own on-screen text.
 - 3 videos per day. Existing-footage videos early in the week, new footage later; group new footage into as few shoots as possible.
-- TikTok mirrors the plan, plus 2-3 photo carousels as TikTok extras.
 
 ## Output format (one phone screen per section)
 
