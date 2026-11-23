@@ -24,8 +24,10 @@ Tag every hook with a hook type (e.g. location-CTA, retention-ask, anti-AI, iden
 source link | visual | on-screen text (verbatim) | why it works | footage needed (existing / new) | which of our sections it suits
 
 ## Pick
-- Each week deliver **5 video formats + 1 TikTok carousel format**, enough to replace the formats being cut.
-- Output as a table: # | text (Ahan's version) | visual | footage (existing / new) | original link as [▶ Watch](url). Mark upranked ideas with ⬆️.
+- Feeds the **Idea Bank** on the Setup tab of the Flagship Optimiser sheet. Keep at least 3 formats and 3 hooks waiting at all times (the sheet uses ~2 hooks and 1-2 formats per 4-day round, plus a wildcard).
+- Deliver **formats** (visual only, what to film) and **hooks** (exact on-screen words) as separate lists. Use 🔒 locked words only when the words only make sense with that visual.
+- Plus **1 TikTok carousel format** per week, outside the sheet.
+- Output as two tables. Formats: # | visual | footage (existing / new) | [▶ Watch](url). Hooks: # | exact words (Ahan's voice) | hook type | [▶ Watch](url). Mark upranked ideas with ⬆️.
 - Adapt the text to Daisy's Room in Ahan's voice (lowercase, casual). Keep the mechanic, change the words.
 - Prefer ideas that drive comments or sends (questions, "lmk what city", "copy link") and need no new gear.
 - Never reuse an idea already listed in `logs/inspo-seen.md`.
